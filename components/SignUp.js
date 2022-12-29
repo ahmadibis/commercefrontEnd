@@ -40,6 +40,7 @@ export default function SignUp() {
     // Send the email and password to the graphqlAPI
   }
   return (
+    // eslint-disable-next-line react/jsx-no-bind
     <Form method="POST" onSubmit={handleSubmit}>
       <h2>Sign Up For an Account</h2>
       <Error error={error} />
